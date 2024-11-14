@@ -5,10 +5,12 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/eodaGmbH/rtabulator/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/eodaGmbH/rtabulator/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/eoda-dev/rtabulator/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/eoda-dev/rtabulator/actions/workflows/R-CMD-check.yaml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/rtabulator)](https://CRAN.R-project.org/package=rtabulator)
 [![Tabulator](https://img.shields.io/badge/Tabulator-v6.2.5-blue.svg)](https://github.com/olifolkerd/tabulator/releases/tag/6.2.5)
+[![Codecov test
+coverage](https://codecov.io/gh/eoda-dev/rtabulator/graph/badge.svg)](https://app.codecov.io/gh/eoda-dev/rtabulator)
 <!-- badges: end -->
 
 The goal of rtabulator is to make it a breeze creating beautiful and
@@ -33,10 +35,10 @@ interactive tables in markdown documents and Shiny application using
 - Freeze data
 
 To learn more about rtabulator, see the documentation at
-<https://eodagmbh.github.io/rtabulator/>.
+<https://eoda-dev.github.io/rtabulator/>.
 
 Bindings for Python are available at
-<https://github.com/eodaGmbH/py-tabulator>.
+<https://github.com/eoda-dev/py-tabulator>.
 
 ## Installation
 
@@ -50,7 +52,7 @@ install.packages("rtabulator")
 You can install the development version of rtabulator like so:
 
 ``` r
-remotes::install_github("eodaGmbH/rtabulator")
+remotes::install_github("eoda-dev/rtabulator")
 ```
 
 ## Basic usage
@@ -78,5 +80,5 @@ tabulator(data = list(), spreadsheet = TRUE)
 ## Shiny
 
 ``` r
-shiny::runGitHub("eodaGmbH/rtabulator", subdir = "examples/shiny/titanic")
+shiny::runGitHub("eoda-dev/rtabulator", subdir = "examples/shiny/titanic")
 ```
