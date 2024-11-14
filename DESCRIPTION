@@ -15,9 +15,9 @@ Description: Provides R bindings for 'Tabulator JS' <https://tabulator.info/>.
   and 'shiny' applications. It includes filtering, grouping, editing, input validation,
   history recording, column formatters, packaged themes and more.
 URL:
-  https://github.com/eodaGmbH/rtabulator
-  https://eodagmbh.github.io/rtabulator/
-BugReports: https://github.com/eodaGmbH/rtabulator/issues
+  https://github.com/eoda-dev/rtabulator
+  https://eoda-dev.github.io/rtabulator/
+BugReports: https://github.com/eoda-dev/rtabulator/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
